@@ -54,6 +54,7 @@ class ThreeSumClosestTest {
         assertThat(result).isEqualTo(12000);
     }
 
+
     @Test
     void testMinimumInputSize() {
         int[] nums = {1, 2, 3};
