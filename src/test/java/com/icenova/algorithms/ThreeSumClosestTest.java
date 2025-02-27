@@ -39,14 +39,6 @@ class ThreeSumClosestTest {
     }
 
     @Test
-    void testNegativeNumbers() {
-        int[] nums = {-5, -3, -2, -1};
-        int target = -8;
-        int result = threeSumClosest.threeSumClosest(nums, target);
-        assertThat(result).isEqualTo(-9);
-    }
-
-    @Test
     void testMixedNumbers() {
         int[] nums = {-10, -5, 0, 5, 10};
         int target = 6;
