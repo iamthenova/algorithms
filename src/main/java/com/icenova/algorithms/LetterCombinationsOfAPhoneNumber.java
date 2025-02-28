@@ -45,13 +45,11 @@ public class LetterCombinationsOfAPhoneNumber {
         var currentButton = pressedButtons.get(level);
         for (var c : currentButton.toCharArray()) {
             sb.append(c);
-
             if (level == pressedButtons.size() - 1) {
                 result.add(sb.toString());
             } else {
                 rec(result, pressedButtons, sb, level + 1);
             }
-
             sb.deleteCharAt(sb.length() - 1);
         }
     }
