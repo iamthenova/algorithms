@@ -1,5 +1,7 @@
 package com.icenova.algorithms;
 
+import com.icenova.algorithms.dto.ListNode;
+
 public class AddTwoNumbers {
 
     //Example 1:
@@ -49,22 +51,5 @@ public class AddTwoNumbers {
         }
 
         return root.next;
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }
