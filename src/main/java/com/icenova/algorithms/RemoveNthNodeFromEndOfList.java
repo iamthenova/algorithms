@@ -18,6 +18,7 @@ public class RemoveNthNodeFromEndOfList {
     //
     //Input: head = [1,2], n = 1
     //Output: [1]
+    //
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode res = new ListNode(0, head);
         ListNode dummy = res;
